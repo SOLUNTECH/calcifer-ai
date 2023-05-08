@@ -1,0 +1,33 @@
+{
+  "name": "aid",
+  "version": "0.0.0",
+  "description": "ai-developer",
+  "author": "neisser-soluntech <neisser@soluntech.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "./bin/index.js",
+  "directories": {
+    "bin": "bin",
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/aid.test.js"
+  },
+  "bin": {
+    "aid": "./bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
