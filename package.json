@@ -1,11 +1,19 @@
 {
   "name": "aid",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ai-developer",
   "author": "neisser-soluntech <neisser@soluntech.com>",
-  "homepage": "",
+  "homepage": "https://github.com/SOLUNTECH/aid",
   "license": "ISC",
-  "main": "./bin/index.js",
+  "main": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SOLUNTECH/aid.git"
+  },
+  "keywords": ["CLI", "Openai", "Commander"],
+  "bugs": {
+    "url": "https://github.com/SOLUNTECH/aid/issues"
+  },
   "directories": {
     "bin": "bin",
     "lib": "lib",
