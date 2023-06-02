@@ -3,10 +3,10 @@
 require('dotenv').config()
 
 const { program } = require('../lib/program');
-const { think } = require('../lib/aid');
+const { think } = require('../lib/calcifer-ai');
 
 program
-  .name('aid')
+  .name('calcifer-ai')
   .description('CLI to generate code by using openai gptchat')
   .version('0.8.0');
 

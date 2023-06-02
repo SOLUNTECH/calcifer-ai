@@ -1,9 +1,9 @@
 {
-  "name": "aid",
+  "name": "calcifer-ai",
   "version": "1.0.0",
-  "description": "ai-developer",
+  "description": "ai-developer assistance",
   "author": "neisser-soluntech <neisser@soluntech.com>",
-  "homepage": "https://github.com/SOLUNTECH/aid",
+  "homepage": "https://github.com/SOLUNTECH/calcifer-ai",
   "license": "ISC",
   "main": "./bin/cli.js",
   "repository": {
@@ -12,7 +12,7 @@
   },
   "keywords": ["CLI", "Openai", "Commander"],
   "bugs": {
-    "url": "https://github.com/SOLUNTECH/aid/issues"
+    "url": "https://github.com/SOLUNTECH/calcifer-ai/issues"
   },
   "directories": {
     "bin": "bin",
@@ -27,7 +27,7 @@
     "test": "node ./__tests__/aid.test.js"
   },
   "bin": {
-    "aid": "./bin/cli.js"
+    "calcifer": "./bin/cli.js"
   },
   "dependencies": {
     "commander": "^10.0.0",

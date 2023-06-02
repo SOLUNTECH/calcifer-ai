@@ -1,4 +1,4 @@
-# AID (Artificial Intelligence Developer)
+# Calcifer-ai
 
 AID is a command-line interface (CLI) tool created using Commander and backed by OpenAI's powerful artificial intelligence technology. It generates code based on user prompts, allowing developers to easily and quickly create templates and boilerplate code for their projects.
 
