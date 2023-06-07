@@ -1,3 +1,5 @@
+<p align="center"><img src="https://i.pinimg.com/originals/28/f2/d7/28f2d72b8060aa16d943f5efc440b97a.png" height="300px"/></p>
+
 # Calcifer-AI
 
 Calcifer-AI is a powerful command-line interface (CLI) tool built on Commander and leveraging the advanced artificial intelligence capabilities of OpenAI. It enables developers to effortlessly generate code templates and boilerplate code for their projects through interactive prompts.
@@ -28,11 +30,11 @@ calcifer-ai think --path=./src/pages --lang=react create a react component. The 
 
 Executing this command will launch the Calcifer-AI CLI and present you with a prompt. Input your prompts using the specified format:
 
-* **`think`** is the main command.
+- **`think`** is the main command.
 
-* **`--path`** denotes the folder location.
+- **`--path`** denotes the folder location.
 
-* **`--lang`** indicates the context file supporting the file generation.
+- **`--lang`** indicates the context file supporting the file generation.
 
 Calcifer-AI will employ OpenAI's cutting-edge technology to generate code based on your prompts and save the resulting code to a file.
 
