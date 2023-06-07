@@ -1,14 +1,14 @@
 {
   "name": "calcifer-ai",
   "version": "1.0.0",
-  "description": "ai-developer assistance",
+  "description": "Calcifer-AI is a powerful command-line interface",
   "author": "neisser-soluntech <neisser@soluntech.com>",
   "homepage": "https://github.com/SOLUNTECH/calcifer-ai",
   "license": "ISC",
   "main": "./bin/cli.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SOLUNTECH/aid.git"
+    "url": "https://github.com/SOLUNTECH/calcifer-ai.git"
   },
   "keywords": ["CLI", "Openai", "Commander"],
   "bugs": {
