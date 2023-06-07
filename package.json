@@ -24,7 +24,7 @@
     "bin"
   ],
   "scripts": {
-    "test": "node ./__tests__/aid.test.js"
+    "test": "node ./__tests__/calcifer.test.js"
   },
   "bin": {
     "calcifer": "./bin/cli.js"
