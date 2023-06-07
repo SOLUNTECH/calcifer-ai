@@ -1,38 +1,45 @@
-# Calcifer-ai
+# Calcifer-AI
 
-AID is a command-line interface (CLI) tool created using Commander and backed by OpenAI's powerful artificial intelligence technology. It generates code based on user prompts, allowing developers to easily and quickly create templates and boilerplate code for their projects.
+Calcifer-AI is a powerful command-line interface (CLI) tool built on Commander and leveraging the advanced artificial intelligence capabilities of OpenAI. It enables developers to effortlessly generate code templates and boilerplate code for their projects through interactive prompts.
 
 ## Installation
 
-To install AID, you must first have Node.js and npm installed on your system. Then, run the following command:
+Before installing Calcifer-AI, ensure that you have Node.js and npm installed on your system. Once the prerequisites are in place, execute the following command:
 
 ```bash
-npm install -g aid
+npm install -g calcifer-ai
 ```
 
-This will install AID globally on your system.
+This command will globally install Calcifer-AI on your system.
+
+or you can also install locally by using the command:
+
+```bash
+npm install git@github.com:SOLUNTECH/calcifer-ai.git
+```
 
 ## Usage
 
-To use AID, simply open a terminal window and type:
+To harness the potential of Calcifer-AI, open a terminal window and enter the following command:
 
 ```bash
-aid think --path=./src/pages --lang=react create a react component. The componnent its called button. It update the counter state and refresh the h1 with the current count.
+calcifer-ai think --path=./src/pages --lang=react create a react component. The component is called button. It updates the counter state and refreshes the h1 with the current count.
 ```
 
-This will start the AID CLI and present you with a prompt. From there, you can input prompts in the following format:
+Executing this command will launch the Calcifer-AI CLI and present you with a prompt. Input your prompts using the specified format:
 
-aid think -> main command
---path= folder location
---lang= context file that will support the file genereation
+* **`think`** is the main command.
 
-AID will then use OpenAI's technology to generate code based on your input, and save the resulting code to a file.
+* **`--path`** denotes the folder location.
+
+* **`--lang`** indicates the context file supporting the file generation.
+
+Calcifer-AI will employ OpenAI's cutting-edge technology to generate code based on your prompts and save the resulting code to a file.
 
 ## Contributing
 
-Contributions to AID are welcome! To contribute, please fork this repository and submit a pull request with your changes.
+We welcome contributions to Calcifer-AI! If you wish to contribute, please fork this repository and submit a pull request with your proposed changes.
 
 ## License
 
-AID is released under the MIT license. See [LICENSE](LICENSE) for more information.
-
+Calcifer-AI is released under the MIT license. For more details, See [LICENSE](LICENSE) for more information.
